@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Toronto Cupcake — Web Redesign | Mahnaz Mohammadi</title>
+<meta name="description" content="UX case study: improving navigation and product discovery for Toronto Cupcake's e-commerce site." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Balsamiq+Sans:wght@400;700&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html">Mahnaz <span>Mohammadi</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="primary-nav" class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="cupcake.html">Toronto Cupcake</a>
+      <a href="my-stylist.html">My Stylist</a>
+      <a href="flora.html">Flora</a>
+      <a href="diaco.html">دیاکو</a>
+      <a class="nav-cta" href="mailto:mahnaz.mohammadi@example.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container">
+    <!-- Hero -->
+    <section class="case-hero">
+      <img src="images/cupcake-4.webp" alt="Toronto Cupcake redesign hero" />
+      <div class="case-hero-overlay">
+        <p class="case-type">UX Case Study</p>
+        <h1>Toronto Cupcake — Web Redesign</h1>
+      </div>
+    </section>
+
+    <!-- Meta -->
+    <dl class="meta-grid">
+      <div class="meta-item"><dt>Role</dt><dd>UX Designer</dd></div>
+      <div class="meta-item"><dt>Type</dt><dd>UX Case Study</dd></div>
+      <div class="meta-item"><dt>Tools</dt><dd>Figma, Miro</dd></div>
+      <div class="meta-item"><dt>Focus</dt><dd>E-commerce, Navigation</dd></div>
+    </dl>
+
+    <!-- Overview -->
+    <section class="case-section">
+      <h2>Overview</h2>
+      <p>
+        Toronto Cupcake is an e-commerce bakery specializing in custom cupcakes. While the product
+        is loved, the website made finding and ordering cupcakes harder than it needed to be.
+        This project set out to improve navigation and product discovery so customers can move
+        from craving to checkout with minimal friction.
+      </p>
+      <div class="insight">
+        <strong>Key insight:</strong> Customers struggled to find specific flavors and occasions.
+        Improving navigation and product discovery — through clearer categories, better search,
+        and a guided ordering flow — directly reduces drop-off before checkout.
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="case-section">
+      <h2>Process</h2>
+      <ol class="timeline">
+        <li><span class="phase-num">01</span><h3>User Research</h3><p>Analyzed customer reviews, support queries, and site analytics to locate friction points in discovery and checkout.</p></li>
+        <li><span class="phase-num">02</span><h3>Personas</h3><p>Defined primary personas: the occasion planner, the gift buyer, and the returning flavor loyalist.</p></li>
+        <li><span class="phase-num">03</span><h3>Information Architecture</h3><p>Reorganized categories by occasion, flavor, and dietary needs using card-sorting insights mapped in Miro.</p></li>
+        <li><span class="phase-num">04</span><h3>Wireframes</h3><p>Low-fidelity wireframes for the category grid, product detail, and a simplified cart flow.</p></li>
+        <li><span class="phase-num">05</span><h3>Prototype</h3><p>Built a clickable mid-fidelity prototype in Figma covering the full ordering journey.</p></li>
+        <li><span class="phase-num">06</span><h3>Usability Testing</h3><p>Five moderated task-based sessions validated the new IA; iteration focused on filters and clearer add-to-cart feedback.</p></li>
+      </ol>
+    </section>
+
+    <!-- Gallery -->
+    <section class="case-section">
+      <h2>Deliverables</h2>
+      <div class="gallery">
+        <img class="lazy-img" data-src="images/cupcake-4.webp" alt="Toronto Cupcake final redesign screens" loading="lazy" />
+      </div>
+    </section>
+
+    <div class="btn-row" style="margin-bottom: var(--sp-5);">
+      <a class="btn btn-outline" href="index.html">← Back to all projects</a>
+      <a class="btn btn-primary" href="my-stylist.html">Next: My Stylist →</a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="footer-copy">© 2025 Mahnaz Mohammadi — Designed with care.</span>
+    <nav class="footer-links" aria-label="Social">
+      <a href="mailto:mahnaz.mohammadi@example.com">Email</a>
+      <a href="https://www.linkedin.com/in/mahnaz-mohammadi" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://dribbble.com/" target="_blank" rel="noopener">Dribbble</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
